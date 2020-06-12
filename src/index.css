@@ -3,7 +3,11 @@ body {
     background-color: #859eab;
 }
 
-#titulo {}
+#titulo{
+    background-color: #fffad1;
+    border-radius: 5px;
+
+}
 
 .card-footer {
     background-color: rgba(0, 0, 0, 0);

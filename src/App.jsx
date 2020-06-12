@@ -20,10 +20,10 @@ const App = () => {
     }
 
     return (
-        <div className="container">
+        <div className="container mt-3">
             <div className="row">
                 <div className="col-md-6">
-                    <h1 id="titulo">TODO List</h1>
+                    <h1 id="titulo" className="animate__animated animate__bounce text-center">TODO List</h1>
                 </div>
             </div>
             <div className="row">
