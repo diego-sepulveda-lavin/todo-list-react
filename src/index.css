@@ -1,0 +1,38 @@
+body {
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: #859eab;
+}
+
+#titulo {}
+
+.card-footer {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#input{
+    background-color: #fffad1;
+
+}
+#tarea {
+    background-color: #fffad1;
+}
+
+#tarea .close {
+    visibility: hidden;
+}
+
+#tarea:hover .close {
+    visibility: visible;
+}
+
+.paper {
+    background-color: #fffad1;
+    box-shadow: /* The top layer shadow */
+    0 1px 1px rgba(0, 0, 0, 0.15), /* The second layer */
+    0 10px 0 -5px #fff7b3, /* The second layer shadow */
+    0 10px 1px -4px rgba(0, 0, 0, 0.15), /* The third layer */
+    0 20px 0 -10px #fff7b3, /* The third layer shadow */
+    0 20px 1px -9px rgba(0, 0, 0, 0.15);
+    /* Padding for demo purposes */
+    padding: 30px;
+}
