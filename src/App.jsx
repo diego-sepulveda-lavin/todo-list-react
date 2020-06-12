@@ -37,7 +37,7 @@ const App = () => {
                                     todoList.length > 0 &&
                                     todoList.map((elemento, index) => {
                                         return (
-                                            <li key={index} className="list-group-item" id="tarea">
+                                            <li key={index} className="list-group-item animate__animated animate__slideInDown" id="tarea">
                                                 {elemento}
                                                 <button type="button" className="close" aria-label="Close" onClick={() => handleDeletion(index)}>
                                                     <span aria-hidden="true">&times;</span>
